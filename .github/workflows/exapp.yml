@@ -1,0 +1,59 @@
+name: exapp
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Moteur indiqué dans ENGINE_VERSION
+        run: |
+          git clone --depth 1 --branch "v$(cat ENGINE_VERSION)" https://github.com/Arthur-Llevelys/AxiorHub-Pilote.git "$RUNNER_TEMP/engine"
+          echo "AXIORHUB_ENGINE=$RUNNER_TEMP/engine" >> "$GITHUB_ENV"
+      - name: Contrôles du dépôt et contrat de la passerelle
+        run: python -m unittest discover -s tests -v
+      - name: Paquet de la boutique
+        run: python scripts/build-appstore-package.py "dist/axiorhub-$(python -c "import xml.etree.ElementTree as E;print(E.parse('appinfo/info.xml').getroot().findtext('version'))").tar.gz"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: appstore-package
+          path: dist/
+
+  image:
+    needs: checks
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - name: Version
+        id: v
+        run: echo "version=$(python3 -c "import xml.etree.ElementTree as E;print(E.parse('appinfo/info.xml').getroot().findtext('version'))")" >> "$GITHUB_OUTPUT"
+      - name: Connexion à ghcr.io (tag seulement)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Construire (et publier pour un tag)
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          platforms: linux/amd64
+          push: ${{ startsWith(github.ref, 'refs/tags/v') }}
+          tags: ghcr.io/arthur-llevelys/axiorhub-exapp:${{ steps.v.outputs.version }}
