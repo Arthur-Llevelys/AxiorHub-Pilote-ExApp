@@ -22,6 +22,7 @@ RUN git clone --depth 1 --branch "v${AXIORHUB_VERSION}" "${AXIORHUB_REPOSITORY}"
     && python3 scripts/build-release.py /tmp/axiorhub.tar.gz \
     && mkdir -p /app \
     && tar -xzf /tmp/axiorhub.tar.gz -C /app --strip-components=1 \
+    && cd / \
     && rm -rf /tmp/axiorhub-src /tmp/axiorhub.tar.gz \
     && python3 -m venv /opt/venv \
     && /opt/venv/bin/pip install --no-cache-dir waitress==3.0.2 cryptography==44.0.0 \

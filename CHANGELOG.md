@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.1 — correction de la construction de l'image (moteur AxiorHub Pilote 5.6.42)
+
+- L'image 0.1.0 ne se construisait pas : l'installation de `waitress` et `cryptography` partait du dossier source du moteur, supprimé juste avant (`OSError: No such file or directory`). La construction quitte maintenant ce dossier avant de le supprimer. Aucune image 0.1.0 n'a été publiée.
+
 ## 0.1.0 — version de développement (moteur AxiorHub Pilote 5.6.42)
 
 Première version, issue du cahier des charges « AxiorHub Pilote ExApp » (lots L1 et L2, L3 en partie). Pour des tests seulement.

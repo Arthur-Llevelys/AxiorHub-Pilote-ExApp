@@ -6,7 +6,7 @@ Application Nextcloud **autonome** : le moteur AxiorHub Pilote — logiciel juri
 géré par Nextcloud (AppAPI). Installation depuis la boutique Nextcloud, une seule connexion (le compte Nextcloud), mises à jour depuis la
 boutique, données dans un volume persistant.
 
-> **Version de développement 0.1.0 — pour des tests seulement, pas encore pour la production.** Le contrat AppAPI est testé, mais
+> **Version de développement 0.1.1 — pour des tests seulement, pas encore pour la production.** Le contrat AppAPI est testé, mais
 > l'installation réelle par HaRP et la migration depuis une installation serveur restent à qualifier (voir « État » ci-dessous). Pour le
 > travail du cabinet, utilisez d'ici là la [version serveur d'AxiorHub](https://github.com/Arthur-Llevelys/AxiorHub-Pilote) et
 > l'application [AxiorHub Pilote pour Nextcloud](https://github.com/Arthur-Llevelys/AxiorHub-Pilote-Nextcloud).
@@ -60,7 +60,7 @@ est testé par sa suite (classe `ExApp` de `tests/test_v5642.py`). L'image est c
 
    ```bash
    sudo -u www-data php occ app_api:app:register axiorhub <nom-du-démon> \
-     --info-xml https://github.com/Arthur-Llevelys/AxiorHub-Pilote-ExApp/raw/v0.1.0/appinfo/info.xml \
+     --info-xml https://github.com/Arthur-Llevelys/AxiorHub-Pilote-ExApp/raw/v0.1.1/appinfo/info.xml \
      --env AXIORHUB_OLLAMA_URL=http://192.168.1.20:11434 --wait-finish
    ```
 
@@ -69,7 +69,7 @@ est testé par sa suite (classe `ExApp` de `tests/test_v5642.py`). L'image est c
 
 Guide complet : [docs/INSTALLATION.md](docs/INSTALLATION.md).
 
-## État de la version 0.1.0
+## État de la version 0.1.1
 
 | Lot du cahier des charges | État |
 |---|---|
@@ -83,8 +83,8 @@ Guide complet : [docs/INSTALLATION.md](docs/INSTALLATION.md).
 ## Construire
 
 ```bash
-docker build -t ghcr.io/arthur-llevelys/axiorhub-exapp:0.1.0 .
-python3 scripts/build-appstore-package.py dist/axiorhub-0.1.0.tar.gz   # paquet de la boutique (dossier appinfo)
+docker build -t ghcr.io/arthur-llevelys/axiorhub-exapp:0.1.1 .
+python3 scripts/build-appstore-package.py dist/axiorhub-0.1.1.tar.gz   # paquet de la boutique (dossier appinfo)
 python3 -m unittest discover -s tests                                   # contrôles du dépôt
 ```
 
