@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.4 — moteur AxiorHub Pilote 5.6.45
+
+- Moteur 5.6.45 (correctif) : le worker attend et reprend quand la base est occupée pendant sa boucle, au lieu de s’arrêter ; un travail resté « en cours » est rendu à la file. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.3 — moteur AxiorHub Pilote 5.6.44
 
 - Moteur 5.6.44 : démarrage tolérant au verrou de la base (les services attendent au lieu de s’arrêter en boucle), test d’affichage de Talk conforme aux navigateurs, corrections de l’audit 5.6.43 (arrêt des appels au modèle, pause reprenable, classement des courriels : autorisations relues, progression de la boîte, mandats durables, nouvelle tentative, dérivés versionnés), corrections de l’avocat dans la page du dossier (parties, juridiction, numéro de RG). Détail : `CHANGELOG.md` et `CONFORMITE-5.6.44.md` du dépôt AxiorHub-Pilote.
