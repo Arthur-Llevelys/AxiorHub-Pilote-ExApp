@@ -1,5 +1,10 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.3 — moteur AxiorHub Pilote 5.6.44
+
+- Moteur 5.6.44 : démarrage tolérant au verrou de la base (les services attendent au lieu de s’arrêter en boucle), test d’affichage de Talk conforme aux navigateurs, corrections de l’audit 5.6.43 (arrêt des appels au modèle, pause reprenable, classement des courriels : autorisations relues, progression de la boîte, mandats durables, nouvelle tentative, dérivés versionnés), corrections de l’avocat dans la page du dossier (parties, juridiction, numéro de RG). Détail : `CHANGELOG.md` et `CONFORMITE-5.6.44.md` du dépôt AxiorHub-Pilote.
+- Migrations 0645 (mandats de classement) et 0646 (corrections du dossier) appliquées au démarrage, dans le volume.
+
 ## 0.1.2 — moteur AxiorHub Pilote 5.6.43
 
 - Moteur 5.6.43 : « Pause de l’IA » fiable (travaux suspendus puis repris, appel au modèle coupé), aucun brouillon adressé au cabinet lui-même, compétences choisies par phase, classement des courriels et de leurs pièces jointes dans le dossier client (CORRESPONDANCES, NOS PIECES), Agenda en ligne et Agenda personnel séparés, page Talk facultative, Playbooks repris étape par étape, menu sans doublons, cartes « Produire » lisibles. Détail : `CHANGELOG.md` et `CONFORMITE-5.6.43.md` du dépôt AxiorHub-Pilote.
