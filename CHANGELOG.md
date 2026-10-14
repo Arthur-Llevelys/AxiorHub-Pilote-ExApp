@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.6 — moteur AxiorHub Pilote 5.6.47
+
+- Moteur 5.6.47 (correctif) : la génération locale (Ollama) se fait en flux ; une longue réponse, comme la fiche d’un gros dossier, n’est plus coupée au bout de 240 s tant que le modèle écrit. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.5 — moteur AxiorHub Pilote 5.6.46
 
 - Moteur 5.6.46 (correctif) : le rapprochement des courriels et l’actualisation de l’agenda ne tiennent plus la base en écriture pendant des minutes (lectures IMAP et calculs faits avant d’écrire). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
