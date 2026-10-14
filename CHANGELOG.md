@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.7 — moteur AxiorHub Pilote 5.6.48
+
+- Moteur 5.6.48 : page de connexion, premier compte et « Mot de passe oublié » pour la version serveur. Rien ne change dans l’ExApp : la connexion reste celle de Nextcloud. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.6 — moteur AxiorHub Pilote 5.6.47
 
 - Moteur 5.6.47 (correctif) : la génération locale (Ollama) se fait en flux ; une longue réponse, comme la fiche d’un gros dossier, n’est plus coupée au bout de 240 s tant que le modèle écrit. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
