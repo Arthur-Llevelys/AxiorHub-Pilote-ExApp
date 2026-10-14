@@ -1,5 +1,11 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.2 — moteur AxiorHub Pilote 5.6.43
+
+- Moteur 5.6.43 : « Pause de l’IA » fiable (travaux suspendus puis repris, appel au modèle coupé), aucun brouillon adressé au cabinet lui-même, compétences choisies par phase, classement des courriels et de leurs pièces jointes dans le dossier client (CORRESPONDANCES, NOS PIECES), Agenda en ligne et Agenda personnel séparés, page Talk facultative, Playbooks repris étape par étape, menu sans doublons, cartes « Produire » lisibles. Détail : `CHANGELOG.md` et `CONFORMITE-5.6.43.md` du dépôt AxiorHub-Pilote.
+- Dans l’ExApp, AxiorHub et Talk sont servis par la même origine Nextcloud : `X-Frame-Options: SAMEORIGIN` ne devrait pas bloquer la page Talk (à confirmer lors de l’essai d’installation par HaRP).
+- Migrations 0643 (contrôle d’arrêt des travaux) et 0644 (courriels conservés) appliquées au démarrage, dans le volume.
+
 ## 0.1.1 — correction de la construction de l'image (moteur AxiorHub Pilote 5.6.42)
 
 - L'image 0.1.0 ne se construisait pas : l'installation de `waitress` et `cryptography` partait du dossier source du moteur, supprimé juste avant (`OSError: No such file or directory`). La construction quitte maintenant ce dossier avant de le supprimer. Aucune image 0.1.0 n'a été publiée.
