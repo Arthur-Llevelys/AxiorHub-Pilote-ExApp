@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.5 — moteur AxiorHub Pilote 5.6.46
+
+- Moteur 5.6.46 (correctif) : le rapprochement des courriels et l’actualisation de l’agenda ne tiennent plus la base en écriture pendant des minutes (lectures IMAP et calculs faits avant d’écrire). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.4 — moteur AxiorHub Pilote 5.6.45
 
 - Moteur 5.6.45 (correctif) : le worker attend et reprend quand la base est occupée pendant sa boucle, au lieu de s’arrêter ; un travail resté « en cours » est rendu à la file. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
