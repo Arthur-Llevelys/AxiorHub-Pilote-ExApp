@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.8 — moteur AxiorHub Pilote 5.6.49
+
+- Moteur 5.6.49 : recherche juridique avant chaque réponse (connecteurs GoodLegal, OpenLegi, LibreJustice…), requête anonymisée, sources données au modèle et références non sourcées signalées. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.7 — moteur AxiorHub Pilote 5.6.48
 
 - Moteur 5.6.48 : page de connexion, premier compte et « Mot de passe oublié » pour la version serveur. Rien ne change dans l’ExApp : la connexion reste celle de Nextcloud. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
