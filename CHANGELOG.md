@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.9 — moteur AxiorHub Pilote 5.6.50
+
+- Moteur 5.6.50 : messagerie interne du cabinet (conversations, groupes, fil par dossier, avis de l’agent), droits réglables compte par compte et dossiers réservés ; dans l’ExApp, les membres sont les comptes Nextcloud des groupes AxiorHub. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.8 — moteur AxiorHub Pilote 5.6.49
 
 - Moteur 5.6.49 : recherche juridique avant chaque réponse (connecteurs GoodLegal, OpenLegi, LibreJustice…), requête anonymisée, sources données au modèle et références non sourcées signalées. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
