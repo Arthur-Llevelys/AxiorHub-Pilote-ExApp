@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.10 — moteur AxiorHub Pilote 5.6.51
+
+- Moteur 5.6.51 : corrections de l’audit 5.6.50 (accès aux objets d’un dossier réservé, droit « Valider » des corrections du dossier, références juridiques comparées par code et numéro, messagerie par lots sans trou, registre des droits illisible sans réouverture d’accès) ; page Dossier en six onglets ; missions, mémoire des décisions, changements, informations manquantes, relecture Word par propositions, file « À décider / À relire », préparation d’audience et apprentissage des corrections. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.9 — moteur AxiorHub Pilote 5.6.50
 
 - Moteur 5.6.50 : messagerie interne du cabinet (conversations, groupes, fil par dossier, avis de l’agent), droits réglables compte par compte et dossiers réservés ; dans l’ExApp, les membres sont les comptes Nextcloud des groupes AxiorHub. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.

@@ -6,7 +6,7 @@ A **standalone** Nextcloud app: the AxiorHub Pilote engine — legal software de
 managed by Nextcloud (AppAPI). Installed from the Nextcloud App Store, one login (the Nextcloud account), updates from the App Store, data in
 a persistent volume.
 
-> **Development version 0.1.9 — for tests only, not for production yet.** The AppAPI contract is tested, but the real installation
+> **Development version 0.1.10 — for tests only, not for production yet.** The AppAPI contract is tested, but the real installation
 > through HaRP and the migration from a server installation still have to be qualified (see “Status” below). For your firm's work, use the
 > [AxiorHub server version](https://github.com/Arthur-Llevelys/AxiorHub-Pilote) and the
 > [AxiorHub Pilote for Nextcloud](https://github.com/Arthur-Llevelys/AxiorHub-Pilote-Nextcloud) app in the meantime.
@@ -37,7 +37,7 @@ Container ──> Nextcloud (OCS, WebDAV, CalDAV with the AppAPI headers) · Oll
 App Store package, tests, documentation. The gateway and the ExApp mode are part of the engine
 ([`agent/exapp5642.py`](https://github.com/Arthur-Llevelys/AxiorHub-Pilote/blob/main/agent/exapp5642.py), entry point `exapp.py`) and are
 tested by its suite (`ExApp` class of `tests/test_v5642.py`). The image is built from the published engine tag given in `ENGINE_VERSION`
-(currently 5.6.50).
+(currently 5.6.51).
 
 ## Requirements
 
@@ -58,7 +58,7 @@ tested by its suite (`ExApp` class of `tests/test_v5642.py`). The image is built
 
    ```bash
    sudo -u www-data php occ app_api:app:register axiorhub <daemon-name> \
-     --info-xml https://github.com/Arthur-Llevelys/AxiorHub-Pilote-ExApp/raw/v0.1.9/appinfo/info.xml \
+     --info-xml https://github.com/Arthur-Llevelys/AxiorHub-Pilote-ExApp/raw/v0.1.10/appinfo/info.xml \
      --env AXIORHUB_OLLAMA_URL=http://192.168.1.20:11434 --wait-finish
    ```
 
@@ -66,7 +66,7 @@ tested by its suite (`ExApp` class of `tests/test_v5642.py`). The image is built
 
 Full guide: [docs/INSTALLATION.en.md](docs/INSTALLATION.en.md).
 
-## Status of version 0.1.9
+## Status of version 0.1.10
 
 | Work package | Status |
 |---|---|
@@ -80,8 +80,8 @@ Full guide: [docs/INSTALLATION.en.md](docs/INSTALLATION.en.md).
 ## Build
 
 ```bash
-docker build -t ghcr.io/arthur-llevelys/axiorhub-exapp:0.1.9 .
-python3 scripts/build-appstore-package.py dist/axiorhub-0.1.9.tar.gz   # App Store package (appinfo folder)
+docker build -t ghcr.io/arthur-llevelys/axiorhub-exapp:0.1.10 .
+python3 scripts/build-appstore-package.py dist/axiorhub-0.1.10.tar.gz   # App Store package (appinfo folder)
 python3 -m unittest discover -s tests                                   # repository checks
 ```
 
