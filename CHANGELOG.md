@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.14 — moteur AxiorHub Pilote 5.6.55
+
+- Moteur 5.6.55 : les brouillons de réponse automatiques ne sont plus retardés par l’actualisation des grands dossiers ; page « Facturation et honoraires » refondue (dossiers clients seulement, tableau de bord, liste « À faire »). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.13 — moteur AxiorHub Pilote 5.6.54
 
 - Moteur 5.6.54 : correctif des identifiants des documents de facturation (deux créations dans la même seconde). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
