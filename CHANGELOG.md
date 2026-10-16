@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.13 — moteur AxiorHub Pilote 5.6.54
+
+- Moteur 5.6.54 : correctif des identifiants des documents de facturation (deux créations dans la même seconde). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.12 — moteur AxiorHub Pilote 5.6.53
 
 - Moteur 5.6.53 : corrections de l’audit 5.6.52 (opérations externes : compte modifié revu, reprise sans doublon, archivage des preuves, brouillons distants, connexions personnelles, fiche d’opération ; routines : idempotence et pause ; droits fins) ; nouvelle page « Facturation et honoraires » (chiffrage Honorium, devis, conventions, factures, avoirs, Factur-X et UBL) ; dossier FACTURATION dans chaque dossier client. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
