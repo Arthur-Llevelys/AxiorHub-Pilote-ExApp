@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.11 — moteur AxiorHub Pilote 5.6.52
+
+- Moteur 5.6.52 : corrections de l’audit 5.6.51 (contrôle du dossier réel des objets désignés par identifiant, contexte de rédaction actualisé, informations historiques, rappels périmés, relecture Word cumulative, reprise après pause, routines jamais perdues) ; routines personnalisées sur Aujourd’hui ; connexions API utilisables par l’IA (quinze fournisseurs, écritures toujours validées). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.10 — moteur AxiorHub Pilote 5.6.51
 
 - Moteur 5.6.51 : corrections de l’audit 5.6.50 (accès aux objets d’un dossier réservé, droit « Valider » des corrections du dossier, références juridiques comparées par code et numéro, messagerie par lots sans trou, registre des droits illisible sans réouverture d’accès) ; page Dossier en six onglets ; missions, mémoire des décisions, changements, informations manquantes, relecture Word par propositions, file « À décider / À relire », préparation d’audience et apprentissage des corrections. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
