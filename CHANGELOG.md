@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.17 — moteur AxiorHub Pilote 5.6.58
+
+- Moteur 5.6.58 (correctif) : la file « À décider / À relire » ne disparaît plus quand une proposition de facturation est en attente ; aperçu des présentations de facture ; échéances distinguées des rendez-vous. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.16 — moteur AxiorHub Pilote 5.6.57
 
 - Moteur 5.6.57 : file unique, missions jusqu’au Word, préfacture et aperçu PDF, préparation d’audience, demande de pièces, point client, contacts depuis la boîte, reprise. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
