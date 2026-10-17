@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.16 — moteur AxiorHub Pilote 5.6.57
+
+- Moteur 5.6.57 : file unique, missions jusqu’au Word, préfacture et aperçu PDF, préparation d’audience, demande de pièces, point client, contacts depuis la boîte, reprise. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.15 — moteur AxiorHub Pilote 5.6.56
 
 - Moteur 5.6.56 : corrections de l’audit 5.6.55 (facturation, cloisonnement des contacts, identités du cabinet, rédaction, veille). Détail : `CHANGELOG.md` et `CONFORMITE-5.6.56.md` du dépôt AxiorHub-Pilote.
