@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.18 — moteur AxiorHub Pilote 5.6.59
+
+- Moteur 5.6.59 : protection contre les instructions cachées dans les courriels, documents et images ; « Le dossier en bref » et bilan de pièce ; savoir-faire du cabinet. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.17 — moteur AxiorHub Pilote 5.6.58
 
 - Moteur 5.6.58 (correctif) : la file « À décider / À relire » ne disparaît plus quand une proposition de facturation est en attente ; aperçu des présentations de facture ; échéances distinguées des rendez-vous. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
