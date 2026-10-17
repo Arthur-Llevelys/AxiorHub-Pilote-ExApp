@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.15 — moteur AxiorHub Pilote 5.6.56
+
+- Moteur 5.6.56 : corrections de l’audit 5.6.55 (facturation, cloisonnement des contacts, identités du cabinet, rédaction, veille). Détail : `CHANGELOG.md` et `CONFORMITE-5.6.56.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.14 — moteur AxiorHub Pilote 5.6.55
 
 - Moteur 5.6.55 : les brouillons de réponse automatiques ne sont plus retardés par l’actualisation des grands dossiers ; page « Facturation et honoraires » refondue (dossiers clients seulement, tableau de bord, liste « À faire »). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
