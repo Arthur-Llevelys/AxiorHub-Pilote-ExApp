@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.19 — moteur AxiorHub Pilote 5.6.60
+
+- Moteur 5.6.60 : file de travail débloquée (un dossier en pause ne fige plus la file), diagnostic des blocages, page Paramètres réorganisée. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.18 — moteur AxiorHub Pilote 5.6.59
 
 - Moteur 5.6.59 : protection contre les instructions cachées dans les courriels, documents et images ; « Le dossier en bref » et bilan de pièce ; savoir-faire du cabinet. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
