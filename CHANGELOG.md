@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.20 — moteur AxiorHub Pilote 5.6.61
+
+- Moteur 5.6.61 : la veille n’est plus repoussée par une suite de réponses de l’assistant ; « Actualiser » prioritaire ; pièce jointe illisible non bloquante. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.19 — moteur AxiorHub Pilote 5.6.60
 
 - Moteur 5.6.60 : file de travail débloquée (un dossier en pause ne fige plus la file), diagnostic des blocages, page Paramètres réorganisée. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
