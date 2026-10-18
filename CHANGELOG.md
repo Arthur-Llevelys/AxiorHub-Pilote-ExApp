@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.21 — moteur AxiorHub Pilote 5.6.62
+
+- Moteur 5.6.62 : ChatGPT avec l’abonnement de l’utilisateur (sans clé API), Aujourd’hui réorganisé, textes lisibles. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.20 — moteur AxiorHub Pilote 5.6.61
 
 - Moteur 5.6.61 : la veille n’est plus repoussée par une suite de réponses de l’assistant ; « Actualiser » prioritaire ; pièce jointe illisible non bloquante. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
