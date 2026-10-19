@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.23 — moteur AxiorHub Pilote 5.6.64
+
+- Moteur 5.6.64 : Aujourd’hui centré sur les décisions du jour, plus de salve d’analyses, fichiers parasites ignorés, correspondances confidentielles entre avocats réservées à l’usage interne. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.22 — moteur AxiorHub Pilote 5.6.63
 
 - Moteur 5.6.63 : surveillance des documents espacée entre deux tours complets ; analyses d’échéances sans échec inutile. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
