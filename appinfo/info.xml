@@ -11,7 +11,7 @@
     <summary lang="fr">Agent IA juridique pour cabinets d’avocats, installé dans Nextcloud en un clic (moteur inclus, version de développement)</summary>
     <description lang="en"><![CDATA[**AxiorHub Pilote** is legal software designed for French lawyers (avocats). This ExApp installs the **whole AxiorHub engine** in a container managed by Nextcloud (AppAPI): no separate server to install, one login (your Nextcloud account), updates from the App Store.
 
-**Development version 0.1.24 — tests only, not for production yet.** The installation from the App Store and the migration from an existing AxiorHub server are being qualified; use the AxiorHub server version for your firm's work in the meantime.
+**Development version 0.1.25 — tests only, not for production yet.** The installation from the App Store and the migration from an existing AxiorHub server are being qualified; use the AxiorHub server version for your firm's work in the meantime.
 
 ## Requirements
 
@@ -33,7 +33,7 @@ Access is given by Nextcloud groups: `axiorhub-avocats` and `axiorhub-collaborat
 Full guide (French and English): https://github.com/Arthur-Llevelys/AxiorHub-Pilote-ExApp]]></description>
     <description lang="fr"><![CDATA[**AxiorHub Pilote** est un logiciel juridique destiné aux avocats français. Cette ExApp installe **tout le moteur AxiorHub** dans un conteneur géré par Nextcloud (AppAPI) : aucun serveur séparé à installer, une seule connexion (votre compte Nextcloud), mises à jour depuis la boutique.
 
-**Version de développement 0.1.24 — pour des tests seulement, pas encore pour la production.** L'installation depuis la boutique et la migration depuis un serveur AxiorHub existant sont en cours de qualification ; utilisez d'ici là la version serveur d'AxiorHub pour le travail du cabinet.
+**Version de développement 0.1.25 — pour des tests seulement, pas encore pour la production.** L'installation depuis la boutique et la migration depuis un serveur AxiorHub existant sont en cours de qualification ; utilisez d'ici là la version serveur d'AxiorHub pour le travail du cabinet.
 
 ## Prérequis
 
@@ -53,7 +53,7 @@ L'accès est donné par des groupes Nextcloud : `axiorhub-avocats` et `axiorhub-
 4. Dans AxiorHub, **Paramètres › Connexions** : messagerie (IMAP), adresse de l'IA, agendas ; commencez en mode observation.
 
 Guide complet (français et anglais) : https://github.com/Arthur-Llevelys/AxiorHub-Pilote-ExApp]]></description>
-    <version>0.1.24</version>
+    <version>0.1.25</version>
     <licence>agpl</licence>
     <author mail="101706410+Arthur-Llevelys@users.noreply.github.com" homepage="https://github.com/Arthur-Llevelys/AxiorHub-Pilote-ExApp">Timo RAINIO</author>
     <namespace>AxiorhubExApp</namespace>
@@ -69,7 +69,7 @@ Guide complet (français et anglais) : https://github.com/Arthur-Llevelys/AxiorH
         <docker-install>
             <registry>ghcr.io</registry>
             <image>arthur-llevelys/axiorhub-exapp</image>
-            <image-tag>0.1.24</image-tag>
+            <image-tag>0.1.25</image-tag>
         </docker-install>
         <routes>
             <route>

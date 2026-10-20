@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.25 — moteur AxiorHub Pilote 5.6.66
+
+- Moteur 5.6.66 : courriels de nouveau examinés (régression 5.6.65), notes internes rangées dans le dossier. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.24 — moteur AxiorHub Pilote 5.6.65
 
 - Moteur 5.6.65 : corrections de l’audit de la 5.6.64 (correspondances confidentielles, savoir-faire, contacts, file de travail et arrêt). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
