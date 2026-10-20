@@ -2,7 +2,7 @@
 
 ## 0.1.25 — moteur AxiorHub Pilote 5.6.66
 
-- Moteur 5.6.66 : courriels de nouveau examinés (régression 5.6.65), notes internes rangées dans le dossier. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+- Moteur 5.6.66 : « À décider / À relire » par rubriques (courriels à relire d’abord), notes internes rangées dans le dossier. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
 
 ## 0.1.24 — moteur AxiorHub Pilote 5.6.65
 
