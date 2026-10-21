@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.27 — moteur AxiorHub Pilote 5.6.68
+
+- Moteur 5.6.68 : plafond de l’IA externe compté juste et relais local, file « À décider » allégée, motifs en clair, banc d’essai sans fausse alerte, routines alignées. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.26 — moteur AxiorHub Pilote 5.6.67
 
 - Moteur 5.6.67 : projets de réponse « à compléter », rattachement appris, meilleurs passages, rédaction par étapes et contrôle des faits, corrections récurrentes, répartition des modèles et banc d’essai. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
