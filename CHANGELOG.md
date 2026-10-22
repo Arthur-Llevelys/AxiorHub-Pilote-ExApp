@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.29 — moteur AxiorHub Pilote 5.6.70
+
+- Moteur 5.6.70 : facturation électronique SUPERPDP et B2Brouter (envoi, réception, suivi, e-reporting, export par période), pièces Nextcloud dans la messagerie, onglet Courriels du Dossier, « Traiter avec l’IA » plusieurs courriels, visioconférence Jitsi, blocage automatique des accès suspects. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.28 — moteur AxiorHub Pilote 5.6.69
 
 - Moteur 5.6.69 : analyses payantes répétées supprimées, projets « à compléter » réellement rédigés, analyses de documents plus robustes, cartes « À décider » regroupées. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
