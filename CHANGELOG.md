@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.31 — moteur AxiorHub Pilote 5.6.72
+
+- Moteur 5.6.72 : alerte « modèle local d’IA injoignable » sur Aujourd’hui (bouton « Tester maintenant »), réponses « sans dossier » retentées après une coupure de l’IA. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.30 — moteur AxiorHub Pilote 5.6.71
 
 - Moteur 5.6.71 : surveillance des dossiers allégée, activité de l’agent lisible, réponses « sans dossier » automatiques, réponses en attente de décision visibles et déposables. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
