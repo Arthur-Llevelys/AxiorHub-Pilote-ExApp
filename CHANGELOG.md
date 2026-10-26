@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.33 — moteur AxiorHub Pilote 5.6.74
+
+- Moteur 5.6.74 : association d’un téléphone par QR code et page « À valider » (version serveur ; dans l’ExApp, la connexion passe par Nextcloud). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.32 — moteur AxiorHub Pilote 5.6.73
 
 - Moteur 5.6.73 : navigateur supervisé pour les applications Windows et Ubuntu (sans effet dans l’ExApp, qui tourne sur le serveur Nextcloud). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
