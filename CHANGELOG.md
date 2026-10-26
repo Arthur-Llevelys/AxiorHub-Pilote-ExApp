@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.32 — moteur AxiorHub Pilote 5.6.73
+
+- Moteur 5.6.73 : navigateur supervisé pour les applications Windows et Ubuntu (sans effet dans l’ExApp, qui tourne sur le serveur Nextcloud). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.31 — moteur AxiorHub Pilote 5.6.72
 
 - Moteur 5.6.72 : alerte « modèle local d’IA injoignable » sur Aujourd’hui (bouton « Tester maintenant »), réponses « sans dossier » retentées après une coupure de l’IA. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
