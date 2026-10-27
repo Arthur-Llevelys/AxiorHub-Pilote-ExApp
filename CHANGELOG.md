@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.34 — moteur AxiorHub Pilote 5.6.75
+
+- Moteur 5.6.75 : connecteur Claude (version serveur publiée en HTTPS ; dans l’ExApp, il reste inactif : la connexion passe par Nextcloud) et navigateur supervisé visible dans « Toutes les fonctions ». Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.33 — moteur AxiorHub Pilote 5.6.74
 
 - Moteur 5.6.74 : association d’un téléphone par QR code et page « À valider » (version serveur ; dans l’ExApp, la connexion passe par Nextcloud). Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
