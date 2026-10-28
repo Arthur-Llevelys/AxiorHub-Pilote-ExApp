@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.35 — moteur AxiorHub Pilote 5.6.76
+
+- Moteur 5.6.76 : suivi des opportunités et des prospects (Contacts & CRM › Opportunités), détection proposée dans les courriels par le modèle local, relances dans « À décider ». Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.34 — moteur AxiorHub Pilote 5.6.75
 
 - Moteur 5.6.75 : connecteur Claude (version serveur publiée en HTTPS ; dans l’ExApp, il reste inactif : la connexion passe par Nextcloud) et navigateur supervisé visible dans « Toutes les fonctions ». Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
