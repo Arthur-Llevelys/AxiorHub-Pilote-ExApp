@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.36 — moteur AxiorHub Pilote 5.6.77
+
+- Moteur 5.6.77 : pseudonymisation plus sûre avant toute IA externe (numéros validés par leur clé, codes de raisonnement conservés, homonymes, autotest) et texte caché des PDF retiré et signalé. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.35 — moteur AxiorHub Pilote 5.6.76
 
 - Moteur 5.6.76 : suivi des opportunités et des prospects (Contacts & CRM › Opportunités), détection proposée dans les courriels par le modèle local, relances dans « À décider ». Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
