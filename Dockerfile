@@ -4,7 +4,7 @@
 FROM alpine:3.21
 
 # Version du moteur : un tag publié du dépôt AxiorHub-Pilote (le même que dans ENGINE_VERSION).
-ARG AXIORHUB_VERSION=5.6.77
+ARG AXIORHUB_VERSION=5.6.78
 ARG AXIORHUB_REPOSITORY=https://github.com/Arthur-Llevelys/AxiorHub-Pilote.git
 
 LABEL org.opencontainers.image.title="AxiorHub Pilote ExApp" \

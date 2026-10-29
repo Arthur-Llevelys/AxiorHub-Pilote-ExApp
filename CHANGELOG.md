@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.37 — moteur AxiorHub Pilote 5.6.78
+
+- Moteur 5.6.78 : correctif, le contrôle du texte caché des PDF fonctionne aussi sur le serveur Linux. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.36 — moteur AxiorHub Pilote 5.6.77
 
 - Moteur 5.6.77 : pseudonymisation plus sûre avant toute IA externe (numéros validés par leur clé, codes de raisonnement conservés, homonymes, autotest) et texte caché des PDF retiré et signalé. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
