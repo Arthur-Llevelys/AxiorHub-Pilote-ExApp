@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.40 — moteur AxiorHub Pilote 5.6.81
+
+- Moteur 5.6.81 : fournisseurs d’IA préréglés, profil Mixte en un clic, IA en pause pendant les mises à jour. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.39 — moteur AxiorHub Pilote 5.6.80
 
 - Moteur 5.6.80 : assistant plus rapide (boutons immédiats, voie rapide, replis), Qdrant facultatif, 20 pièces jointes. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
