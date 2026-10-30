@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.39 — moteur AxiorHub Pilote 5.6.80
+
+- Moteur 5.6.80 : assistant plus rapide (boutons immédiats, voie rapide, replis), Qdrant facultatif, 20 pièces jointes. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.38 — moteur AxiorHub Pilote 5.6.79
 
 - Moteur 5.6.79 : dossiers refondus (liste triable, page dossier avec aperçu des documents, procédure lue dans les actes), question stratégique et nouveau courrier dans le dossier, bouton micro, conversation vocale. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
