@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.44 — moteur AxiorHub Pilote 5.6.85
+
+- Moteur 5.6.85 : erreur 402 d’un fournisseur d’IA reconnue, relais et message clair.
+
 ## 0.1.43 — moteur AxiorHub Pilote 5.6.84
 
 - Moteur 5.6.84 : cessions de fonds et de droit au bail, bibliothèque de modèles versionnée, éditeur EuroOffice observé, sauvegarde prouvée.
