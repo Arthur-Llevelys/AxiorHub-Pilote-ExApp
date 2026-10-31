@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.43 — moteur AxiorHub Pilote 5.6.84
+
+- Moteur 5.6.84 : cessions de fonds et de droit au bail, bibliothèque de modèles versionnée, éditeur EuroOffice observé, sauvegarde prouvée.
+
 ## 0.1.42 — moteur AxiorHub Pilote 5.6.83
 
 - Moteur 5.6.83 : la discussion lit les courriels et l’agenda, meilleur choix des documents, cessions de parts et d’actions dans Corporate, formulaires officiels, compétences complètes.
