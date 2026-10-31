@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.42 — moteur AxiorHub Pilote 5.6.83
+
+- Moteur 5.6.83 : la discussion lit les courriels et l’agenda, meilleur choix des documents, cessions de parts et d’actions dans Corporate, formulaires officiels, compétences complètes.
+
 ## 0.1.41 — moteur AxiorHub Pilote 5.6.82
 
 - Moteur 5.6.82 : mode de l’IA (abonnement ChatGPT seul, API Mistral ou Claude), modèle choisi pour chaque travail, recherche rapide. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
