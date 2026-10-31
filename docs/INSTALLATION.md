@@ -1,6 +1,6 @@
 # Installer AxiorHub Pilote ExApp
 
-> **Version de développement 0.1.40 : pour des tests seulement.** Faites l'installation sur un **serveur d'essai** (machine virtuelle ou
+> **Version de développement 0.1.41 : pour des tests seulement.** Faites l'installation sur un **serveur d'essai** (machine virtuelle ou
 > VPS de test), jamais d'abord sur le serveur du cabinet. Le cas décrit ici est celui d'un Nextcloud installé directement sur le serveur
 > (Apache, sans Docker), avec Docker installé à côté pour les ExApps.
 
@@ -53,7 +53,7 @@ En attendant, ou pour choisir les réglages, en ligne de commande :
 ```bash
 cd /chemin/vers/nextcloud
 sudo -u www-data php occ app_api:app:register axiorhub <nom-du-démon> \
-  --info-xml https://github.com/Arthur-Llevelys/AxiorHub-Pilote-ExApp/raw/v0.1.40/appinfo/info.xml \
+  --info-xml https://github.com/Arthur-Llevelys/AxiorHub-Pilote-ExApp/raw/v0.1.41/appinfo/info.xml \
   --env AXIORHUB_SERVICE_USER=axiorhub \
   --env AXIORHUB_NEXTCLOUD_ROOT=/Dossiers \
   --env AXIORHUB_OLLAMA_URL=http://192.168.1.20:11434 \

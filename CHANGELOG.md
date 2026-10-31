@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.41 — moteur AxiorHub Pilote 5.6.82
+
+- Moteur 5.6.82 : mode de l’IA (abonnement ChatGPT seul, API Mistral ou Claude), modèle choisi pour chaque travail, recherche rapide. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
+
 ## 0.1.40 — moteur AxiorHub Pilote 5.6.81
 
 - Moteur 5.6.81 : fournisseurs d’IA préréglés, profil Mixte en un clic, IA en pause pendant les mises à jour. Détail : `CHANGELOG.md` du dépôt AxiorHub-Pilote.
