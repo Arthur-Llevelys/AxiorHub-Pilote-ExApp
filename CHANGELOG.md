@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.46 — moteur AxiorHub Pilote 5.6.87
+
+- Moteur 5.6.87 : réponses utiles aux nouveaux contacts, relance avec une autre IA.
+
 ## 0.1.45 — moteur AxiorHub Pilote 5.6.86
 
 - Moteur 5.6.86 : réponses préparées sans dossier visibles et retrouvables.
