@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.47 — moteur AxiorHub Pilote 5.6.88
+
+- Moteur 5.6.88 : sécurité des comptes, sauvegarde, temps par personne, audiences, veille et contrôle des sociétés, stockage cloud.
+
 ## 0.1.46 — moteur AxiorHub Pilote 5.6.87
 
 - Moteur 5.6.87 : réponses utiles aux nouveaux contacts, relance avec une autre IA.
