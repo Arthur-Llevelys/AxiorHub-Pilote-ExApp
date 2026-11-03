@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.50 — moteur AxiorHub Pilote 5.6.91
+
+- Moteur 5.6.91 : noms de fuseau propres au système refusés.
+
 ## 0.1.49 — moteur AxiorHub Pilote 5.6.90
 
 - Moteur 5.6.90 : correctif du fuseau horaire sous Linux.
