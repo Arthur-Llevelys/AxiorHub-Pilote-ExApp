@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.48 — moteur AxiorHub Pilote 5.6.89
+
+- Moteur 5.6.89 : anomalies de l’audit corrigées, livrables unifiés, interface Carbon, pauses horaires, dossier structuré.
+
 ## 0.1.47 — moteur AxiorHub Pilote 5.6.88
 
 - Moteur 5.6.88 : sécurité des comptes, sauvegarde, temps par personne, audiences, veille et contrôle des sociétés, stockage cloud.
