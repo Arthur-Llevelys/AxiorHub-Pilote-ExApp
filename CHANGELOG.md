@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.49 — moteur AxiorHub Pilote 5.6.90
+
+- Moteur 5.6.90 : correctif du fuseau horaire sous Linux.
+
 ## 0.1.48 — moteur AxiorHub Pilote 5.6.89
 
 - Moteur 5.6.89 : anomalies de l’audit corrigées, livrables unifiés, interface Carbon, pauses horaires, dossier structuré.
