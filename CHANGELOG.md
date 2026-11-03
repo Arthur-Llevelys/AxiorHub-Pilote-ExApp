@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.52 — moteur AxiorHub Pilote 5.6.93
+
+- Moteur 5.6.93 : corrections de l’audit 5.6.90, charge du serveur réduite.
+
 ## 0.1.51 — moteur AxiorHub Pilote 5.6.92
 
 - Moteur 5.6.92 : surveillance des documents espacée, bouton de pause visible.
