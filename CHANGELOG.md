@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.53 — moteur AxiorHub Pilote 5.6.94
+
+- Moteur 5.6.94 : reprise automatique après une panne passagère de Nextcloud, traces locales, voix Brindille et dictée améliorée dans le navigateur.
+
 ## 0.1.52 — moteur AxiorHub Pilote 5.6.93
 
 - Moteur 5.6.93 : corrections de l’audit 5.6.90, charge du serveur réduite.
