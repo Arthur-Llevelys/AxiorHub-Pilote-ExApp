@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.55 — moteur AxiorHub Pilote 5.6.96
+
+- Moteur 5.6.96 : échéances d’appel fiabilisées (aucune inscription avant validation, « Écarter » avec motif), courriels lus au premier tour, discussion générale sans dossier, lecture vocale complète, volet et Aujourd’hui plus compacts, accueil avec prénom, heure et météo.
+
 ## 0.1.54 — moteur AxiorHub Pilote 5.6.95
 
 - Moteur 5.6.95 : brouillons terminés avec variantes, recherche commune dans le dossier, routage mesuré, encadré « Actuellement » sur Aujourd’hui.
