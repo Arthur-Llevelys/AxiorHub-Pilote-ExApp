@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.57 — moteur AxiorHub Pilote 5.6.98
+
+- Moteur 5.6.98 : Nouveau dossier réparé, fiche du dossier avec Parties, Juridiction et Fichiers, routines en haut d’Aujourd’hui, cases des Paramètres.
+
 ## 0.1.56 — moteur AxiorHub Pilote 5.6.97
 
 - Moteur 5.6.97 : dossiers réservés protégés, dossiers et fiche, documents et missions, agenda en grille avec Talk, Gmail, liaison ChatGPT, sources juridiques internationales, honoraires et clôture.
