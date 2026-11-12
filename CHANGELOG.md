@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.58 — moteur AxiorHub Pilote 5.6.99
+
+- Moteur 5.6.99 : routines en bandeau d’une ligne, « Ouvrir » réparé, intitulés lisibles, répertoire du scanner hors des dossiers.
+
 ## 0.1.57 — moteur AxiorHub Pilote 5.6.98
 
 - Moteur 5.6.98 : Nouveau dossier réparé, fiche du dossier avec Parties, Juridiction et Fichiers, routines en haut d’Aujourd’hui, cases des Paramètres.
