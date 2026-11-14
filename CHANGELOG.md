@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.59 — moteur AxiorHub Pilote 5.6.100
+
+- Moteur 5.6.100 : droits des courriels vérifiés partout, aucune écriture pendant une lecture, clôture par un seul service ; lecteur « À relire », Aujourd’hui, Dossiers et Produire revus (nouvelle interface active par défaut, réversible) ; nouvelles conclusions → note sourcée.
+
 ## 0.1.58 — moteur AxiorHub Pilote 5.6.99
 
 - Moteur 5.6.99 : routines en bandeau d’une ligne, « Ouvrir » réparé, intitulés lisibles, répertoire du scanner hors des dossiers.
