@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.60 — moteur AxiorHub Pilote 5.6.101
+
+- Moteur 5.6.101 : veille de sécurité du serveur (lecture seule, administrateurs), fonctions en 33 familles à onglets, Aujourd’hui allégée (fragments au dépli), « À relire » unique (courriels, Gmail, documents, notes de l’IA), volet de relecture à droite (courriel HTML, Word et PDF dans l’éditeur, quatre actions), tests à horloge avancée, mesure du temps facultative.
+
 ## 0.1.59 — moteur AxiorHub Pilote 5.6.100
 
 - Moteur 5.6.100 : droits des courriels vérifiés partout, aucune écriture pendant une lecture, clôture par un seul service ; lecteur « À relire », Aujourd’hui, Dossiers et Produire revus (nouvelle interface active par défaut, réversible) ; nouvelles conclusions → note sourcée.
