@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.61 — moteur AxiorHub Pilote 5.6.102
+
+- Moteur 5.6.102 : Pilote dans la messagerie instantanée (@pilote, tâches et événements avec Annuler, documents et courriels dans À relire, résumé de la discussion en continu), accord du client jusqu’au projet de contrat en suivi des modifications, pièces jointes rangées dans le dossier, signature de la messagerie, À relire en accès principal, purge du journal d’audit, fausses alertes Collabora corrigées, aucune écriture pendant les lectures.
+
 ## 0.1.60 — moteur AxiorHub Pilote 5.6.101
 
 - Moteur 5.6.101 : veille de sécurité du serveur (lecture seule, administrateurs), fonctions en 33 familles à onglets, Aujourd’hui allégée (fragments au dépli), « À relire » unique (courriels, Gmail, documents, notes de l’IA), volet de relecture à droite (courriel HTML, Word et PDF dans l’éditeur, quatre actions), tests à horloge avancée, mesure du temps facultative.
