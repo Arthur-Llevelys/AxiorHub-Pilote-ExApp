@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.62 — moteur AxiorHub Pilote 5.6.103
+
+- Moteur 5.6.103 : liaison directe entre postes sur le réseau du cabinet (désactivée par défaut), page « Fichiers » (deux volets, renommage par lot, versions Nextcloud, dossiers surveillés du poste), tableau blanc Excalidraw dans la messagerie instantanée avec Pilote qui dessine, compte Microsoft par application publique intégrée (en attente d’inscription), Gmail par mot de passe d’application, étapes de comptes dans la mise en service, tests en parallèle.
+
 ## 0.1.61 — moteur AxiorHub Pilote 5.6.102
 
 - Moteur 5.6.102 : Pilote dans la messagerie instantanée (@pilote, tâches et événements avec Annuler, documents et courriels dans À relire, résumé de la discussion en continu), accord du client jusqu’au projet de contrat en suivi des modifications, pièces jointes rangées dans le dossier, signature de la messagerie, À relire en accès principal, purge du journal d’audit, fausses alertes Collabora corrigées, aucune écriture pendant les lectures.
