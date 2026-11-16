@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.64 — moteur AxiorHub Pilote 5.6.105
+
+- Moteur 5.6.105 : application Microsoft intégrée disponible (connexion Outlook, agenda et OneDrive sans rien inscrire chez Microsoft ; une application propre du serveur reste prioritaire).
+
 ## 0.1.63 — moteur AxiorHub Pilote 5.6.104
 
 - Moteur 5.6.104 : veille de sécurité sans fausses alertes sur les liens symboliques ni sur Postfix, commandes à copier de nouveau sur plusieurs lignes, mise à jour automatique durcie (copie du script réservée à root, refus d’un code modifiable).
