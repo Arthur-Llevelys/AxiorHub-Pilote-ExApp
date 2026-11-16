@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.65 — moteur AxiorHub Pilote 5.6.106
+
+- Moteur 5.6.106 : webmail façon Outlook (dictée, mise en forme, images, actions groupées, dossiers IMAP, envoi différé, lecteur HTML isolé, résumé par l’IA, alerte de fraude, routines sur message), pages plus compactes, logo du cabinet, SearXNG, images pour les modèles capables de voir, réglage @avocat.fr, corrections de l’audit 5.6.105.
+
 ## 0.1.64 — moteur AxiorHub Pilote 5.6.105
 
 - Moteur 5.6.105 : application Microsoft intégrée disponible (connexion Outlook, agenda et OneDrive sans rien inscrire chez Microsoft ; une application propre du serveur reste prioritaire).
