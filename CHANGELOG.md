@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.63 — moteur AxiorHub Pilote 5.6.104
+
+- Moteur 5.6.104 : veille de sécurité sans fausses alertes sur les liens symboliques ni sur Postfix, commandes à copier de nouveau sur plusieurs lignes, mise à jour automatique durcie (copie du script réservée à root, refus d’un code modifiable).
+
 ## 0.1.62 — moteur AxiorHub Pilote 5.6.103
 
 - Moteur 5.6.103 : liaison directe entre postes sur le réseau du cabinet (désactivée par défaut), page « Fichiers » (deux volets, renommage par lot, versions Nextcloud, dossiers surveillés du poste), tableau blanc Excalidraw dans la messagerie instantanée avec Pilote qui dessine, compte Microsoft par application publique intégrée (en attente d’inscription), Gmail par mot de passe d’application, étapes de comptes dans la mise en service, tests en parallèle.
