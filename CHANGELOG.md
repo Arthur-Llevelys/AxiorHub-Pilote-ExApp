@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.66 — moteur AxiorHub Pilote 5.6.107
+
+- Moteur 5.6.107 : mode Démo prérempli (dans l’application et en ligne, en français, anglais, allemand, espagnol), interface traduite des nouveautés, alerte de fraude discrète et multilingue, messages de juridiction étrangers, vidéo de démonstration.
+
 ## 0.1.65 — moteur AxiorHub Pilote 5.6.106
 
 - Moteur 5.6.106 : webmail façon Outlook (dictée, mise en forme, images, actions groupées, dossiers IMAP, envoi différé, lecteur HTML isolé, résumé par l’IA, alerte de fraude, routines sur message), pages plus compactes, logo du cabinet, SearXNG, images pour les modèles capables de voir, réglage @avocat.fr, corrections de l’audit 5.6.105.
