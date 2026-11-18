@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.67 — moteur AxiorHub Pilote 5.6.108
+
+- Moteur 5.6.108 : correctifs de l’audit 5.6.107 (brouillons, envois partiels ou incertains, envois programmés, export), Accès mobile et Assistance métier en cinq parcours, IA mieux guidée pour les petits modèles, banc d’essai de l’IA.
+
 ## 0.1.66 — moteur AxiorHub Pilote 5.6.107
 
 - Moteur 5.6.107 : mode Démo prérempli (dans l’application et en ligne, en français, anglais, allemand, espagnol), interface traduite des nouveautés, alerte de fraude discrète et multilingue, messages de juridiction étrangers, vidéo de démonstration.
