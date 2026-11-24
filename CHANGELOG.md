@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.68 — moteur AxiorHub Pilote 5.6.109
+
+- Moteur 5.6.109 : fiabilité (arrêts propagés, reprises sans doublon, écritures incertaines rapprochées), pseudonymisation renforcée avant une IA externe, courriels et fichiers plus lisibles, fiche Conseil / Contentieux, honoraires configurables, consommation et coûts, gestion du cabinet et parcours supervisés.
+
 ## 0.1.67 — moteur AxiorHub Pilote 5.6.108
 
 - Moteur 5.6.108 : correctifs de l’audit 5.6.107 (brouillons, envois partiels ou incertains, envois programmés, export), Accès mobile et Assistance métier en cinq parcours, IA mieux guidée pour les petits modèles, banc d’essai de l’IA.
