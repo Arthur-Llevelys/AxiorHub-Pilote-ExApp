@@ -1,5 +1,10 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.69 — moteur AxiorHub Pilote 5.6.110
+
+- Moteur 5.6.110 : tableur, PDF et présentations intégrés et proposés par défaut (GridCraft, PdfCraft, DeckCraft) ; connexion Google : la valeur d’exemple de l’adresse de retour est refusée avant l’envoi ; clé Mistral : test de génération sur une première connexion. La dictée sur le poste et le serveur de documents en un clic concernent les postes Windows et Ubuntu, pas cette application.
+- L’image grossit d’environ 136 Mo (éditeurs intégrés).
+
 ## 0.1.68 — moteur AxiorHub Pilote 5.6.109
 
 - Moteur 5.6.109 : fiabilité (arrêts propagés, reprises sans doublon, écritures incertaines rapprochées), pseudonymisation renforcée avant une IA externe, courriels et fichiers plus lisibles, fiche Conseil / Contentieux, honoraires configurables, consommation et coûts, gestion du cabinet et parcours supervisés.
