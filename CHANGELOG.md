@@ -1,5 +1,9 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.70 — moteur AxiorHub Pilote 5.6.111
+
+- Moteur 5.6.111 : codes de confirmation durcis (cinq essais, liés à la personne et à la version), vérification des liens vers l’adresse contrôlée, jetons d’envoi en empreinte, journaux SQLite exclus de la synchronisation ; onglet « Conversation IA » du dossier ; Conseil : matrice de couverture et questionnaires par droit applicable ; envoi préparé sur un portail (sans transmission automatique).
+
 ## 0.1.69 — moteur AxiorHub Pilote 5.6.110
 
 - Moteur 5.6.110 : tableur, PDF et présentations intégrés et proposés par défaut (GridCraft, PdfCraft, DeckCraft) ; connexion Google : la valeur d’exemple de l’adresse de retour est refusée avant l’envoi ; clé Mistral : test de génération sur une première connexion. La dictée sur le poste et le serveur de documents en un clic concernent les postes Windows et Ubuntu, pas cette application.
