@@ -1,5 +1,10 @@
 # Journal des versions — AxiorHub Pilote ExApp
 
+## 0.1.71 — moteur AxiorHub Pilote 5.6.112
+
+- Moteur 5.6.112 : correctif de sécurité (mise à jour recommandée) — une session ouverte dans le navigateur ignore désormais tout en-tête « Authorization: Bearer » ; avant, une personne connectée avec un rôle ordinaire pouvait obtenir les actions de l'administrateur.
+- Moteur 5.6.112 : page « Conversations IA » (l’Open WebUI du cabinet dans AxiorHub) et onglet « Conversation IA » du dossier sur la conversation propre au dossier ; installation et réglage automatiques d’Open WebUI d’après AxiorHub ; survol des onglets lisible.
+
 ## 0.1.70 — moteur AxiorHub Pilote 5.6.111
 
 - Moteur 5.6.111 : codes de confirmation durcis (cinq essais, liés à la personne et à la version), vérification des liens vers l’adresse contrôlée, jetons d’envoi en empreinte, journaux SQLite exclus de la synchronisation ; onglet « Conversation IA » du dossier ; Conseil : matrice de couverture et questionnaires par droit applicable ; envoi préparé sur un portail (sans transmission automatique).
